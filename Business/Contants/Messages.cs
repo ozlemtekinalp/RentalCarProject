@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace Business.Constans
@@ -31,6 +32,10 @@ namespace Business.Constans
         public static string RentalAddedError = "Kiralama kaydı oluşturulmakistenen araba şuan müsait değildir.";
         public static string RentalDeleted = "Kiralama bilgileri silindi";
         public static string RentalUpdated = "Kiralama bilgileri güncellendi.";
-        
+        internal static string CarImageAdded="Araba fotoğrafı eklendi";
+        internal static string CarImageDeleted= "Araba fotoğrafı silindi";
+        internal static string CarImageUpdated= "Araba fotoğrafı güncellendi";
+        internal static string FailedCarImageAdd;
+        internal static string AuthorizationDenied;
     }
 }
